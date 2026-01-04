@@ -5,7 +5,8 @@
   "scripts": {
     "build": "cd ../frontend && npm run build",
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "prodBuild":"cd ../frontend && npm i && cd ../backend && npm i && npm run build"
   },
   "keywords": [],
   "author": "",
