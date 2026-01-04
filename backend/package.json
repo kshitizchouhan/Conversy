@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "build": "cd ../frontend && npm run build",
+    "build": "cd ../frontend && npm i && npm run build",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
-    "prodBuild":"cd ../frontend && npm i && cd ../backend && npm i && npm run build"
+    "prodBuild":"npm run build"
   },
   "keywords": [],
   "author": "",
